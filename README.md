@@ -1,7 +1,7 @@
 <h1 align="left">Hello there, how you doin'?</h1>
 
 <p>
-  I'm Lucas, I'm from Brazil 🟢🟡<br>
+  I'm Lucas, I'm from Brazil<br>
   Welcome to my profile!
  </p>
 
