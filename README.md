@@ -1,11 +1,16 @@
-<h1 align="left">Hello there, how you doin'?</h1>
+<div align="left">
+<h1>
+  <b>Hello there, how you doin'?</b>
+</h1>
 
-<p>
-  I'm Lucas, I'm from Brazil<br>
-  Welcome to my profile!
- </p>
-
-###
+<h2>
+  <b>I'm Lucas, I'm from <b> Brazil </b>  
+</h2>
+ 
+<h4>
+  <b>Welcome to my profile!</b>
+ </h4>
+  </div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devcassidori&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -23,7 +28,11 @@
   </a>
 </div>
 
-###
+<br>
 
-
+<div class="flex" align="center">
+  <h4>
+    <b><del> &nbsp; &nbsp; &nbsp; LC &nbsp; &nbsp; &nbsp;</del></b>
+  </h4>
+</div>
 
