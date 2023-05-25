@@ -4,7 +4,7 @@
 </h1>
 
 <h2>
-  <b>I'm Lucas, I'm from <b> Brazil </b>  
+  <b>I'm Lucas, I'm from <b> Brazil 🇧🇷 </b>  
 </h2>
  
 <h4>
