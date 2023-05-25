@@ -31,7 +31,7 @@
 
 <div class="flex" align="center">
   <h4>
-    <b><del> &nbsp; &nbsp; &nbsp; LC &nbsp; &nbsp; &nbsp;</del></b>
+    <b><del>  &nbsp; &nbsp; LC &nbsp; &nbsp;</del></b>
   </h4>
 </div>
 
