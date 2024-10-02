@@ -1,4 +1,4 @@
-<h2 align="center">Hi 👋! My name is Lucas Cassidori and I'm a Jr. software developer full stack 👨🏻‍💻, from Brazil 🌎🇧🇷</h2>
+<h2 align="center">Hi 👋 my name is Lucas Cassidori and I'm a Jr. software developer full stack 👨🏻‍💻, from Brazil 🌎🇧🇷</h2>
 
 ###
 
