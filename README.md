@@ -1,6 +1,6 @@
 <h2 align="center">Hi 👋 my name is Lucas Cassidori <br>
   I'm a Jr. software developer full stack 👨🏻‍💻 <br>
-  I'mfrom Brazil 🌎🇧🇷</h2>
+  I'm from Brazil 🌎🇧🇷</h2>
 
 ###
 
