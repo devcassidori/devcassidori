@@ -1,0 +1,379 @@
+<svg width="1000" height="1180" viewBox="0 0 1000 1180" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"></feDropShadow>
+    </filter>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"></feGaussianBlur>
+
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <style>
+      .terminal {
+        font-family:
+          "JetBrains Mono",
+          "Fira Code",
+          "Courier New",
+          monospace;
+      }
+
+      .prompt {
+        fill: #00ff88;
+        font-weight: bold;
+      }
+
+      .command {
+        fill: #58a6ff;
+        font-weight: bold;
+      }
+
+      .command-text {
+        fill: #f0f6fc;
+      }
+
+      .output {
+        fill: #00ff88;
+      }
+
+      .muted {
+        fill: #8b949e;
+      }
+    </style>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- TERMINAL WINDOW -->
+  <!-- ====================================================== -->
+
+  <rect x="10" y="10" width="980" height="1160" rx="16" fill="#0d1117" filter="url(#shadow)"></rect>
+
+  <rect x="10" y="10" width="980" height="1160" rx="16" fill="none" stroke="#30363d" stroke-width="2"></rect>
+
+
+  <!-- ====================================================== -->
+  <!-- HEADER -->
+  <!-- ====================================================== -->
+
+  <rect x="10" y="10" width="980" height="50" rx="16" fill="#161b22"></rect>
+
+  <rect x="10" y="42" width="980" height="18" fill="#161b22"></rect>
+
+  <!-- Window buttons -->
+
+  <circle cx="38" cy="35" r="7" fill="#ff5f56"></circle>
+
+  <circle cx="62" cy="35" r="7" fill="#ffbd2e"></circle>
+
+  <circle cx="86" cy="35" r="7" fill="#27c93f"></circle>
+
+  <!-- Header title -->
+
+  <text x="500" y="40" text-anchor="middle" class="terminal muted" font-size="14">
+
+    lucas@devcassidori: ~
+
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- WHOAMI / ALL -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="98" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="98" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="98" class="command-text">
+      whoami /all
+    </text>
+
+  </g>
+
+
+  <!-- Identity -->
+
+  <g class="terminal output" font-size="14">
+
+    <text x="36" y="130">
+      &gt; Christian
+    </text>
+
+    <text x="36" y="157">
+      &gt; Building software with purpose.
+    </text>
+
+    <text x="36" y="184">
+      &gt; Driven by continuous learning.
+    </text>
+
+    <text x="36" y="211">
+      &gt; Focused on scalable solutions.
+    </text>
+
+    <text x="36" y="238">
+      &gt; Curious about emerging technologies.
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- CURRENTLY -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="287" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="287" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="287" class="command-text">
+      currently
+    </text>
+
+  </g>
+
+
+  <g class="terminal output" font-size="14">
+
+    <text x="36" y="319">
+      &gt; Software Engineering
+    </text>
+
+    <text x="36" y="346">
+      &gt; Exploring Artificial Intelligence
+    </text>
+
+    <text x="36" y="373">
+      &gt; Improving English
+    </text>
+
+    <text x="36" y="400">
+      &gt; Building personal projects
+    </text>
+
+    <text x="36" y="427">
+      &gt; Developing scalable applications
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- PRINCIPLES -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="476" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="476" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="476" class="command-text">
+      principles
+    </text>
+
+  </g>
+
+
+  <g class="terminal output" font-size="14">
+
+    <text x="36" y="508">
+      &gt; Clean Code
+    </text>
+
+    <text x="36" y="535">
+      &gt; SOLID
+    </text>
+
+    <text x="36" y="562">
+      &gt; Simplicity over complexity
+    </text>
+
+    <text x="36" y="589">
+      &gt; Continuous improvement
+    </text>
+
+    <text x="36" y="616">
+      &gt; Knowledge sharing
+    </text>
+
+    <text x="36" y="643">
+      &gt; Problem solving
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- HOBBIES -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="692" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="692" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="692" class="command-text">
+      hobbies
+    </text>
+
+  </g>
+
+
+  <g class="terminal output" font-size="14">
+
+    <text x="36" y="724">
+      &gt; Brazilian Jiu-Jitsu
+    </text>
+
+    <text x="36" y="751">
+      &gt; Gym &amp; Fitness
+    </text>
+
+    <text x="36" y="778">
+      &gt; Video Games
+    </text>
+
+    <text x="36" y="805">
+      &gt; Family Time
+    </text>
+
+    <text x="36" y="832">
+      &gt; Coffee &amp; Code
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- MINDSET -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="881" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="881" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="881" class="command-text">
+      mindset
+    </text>
+
+  </g>
+
+
+  <text x="36" y="913" class="terminal output" font-size="14">
+
+    &gt; Learn → Build → Improve → Repeat
+
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- MISSION -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="962" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="962" class="command">
+      :~$
+    </text>
+
+    <text x="265" y="962" class="command-text">
+      mission
+    </text>
+
+  </g>
+
+
+  <g class="terminal output" font-size="14">
+
+    <text x="36" y="994">
+      &gt; Turn ideas into useful products.
+    </text>
+
+    <text x="36" y="1021">
+      &gt; Solve real problems through technology.
+    </text>
+
+    <text x="36" y="1048">
+      &gt; Keep growing — in code, on the mat, and in life.
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- FINAL PROMPT -->
+  <!-- ====================================================== -->
+
+  <g class="terminal" font-size="16">
+
+    <text x="36" y="1100" class="prompt">
+      lucas@devcassidori
+    </text>
+
+    <text x="225" y="1100" class="command">
+      :~$
+    </text>
+
+  </g>
+
+
+  <!-- Animated cursor -->
+
+  <rect x="265" y="1084" width="10" height="19" fill="#00ff88" filter="url(#glow)">
+
+    <animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite"></animate>
+
+  </rect>
+
+
+  <!-- ====================================================== -->
+  <!-- SCANLINE -->
+  <!-- ====================================================== -->
+
+  <rect x="11" y="60" width="978" height="2" fill="#ffffff" opacity="0.025">
+
+    <animate attributeName="y" from="60" to="1150" dur="7s" repeatCount="indefinite"></animate>
+
+  </rect>
+
+</svg>
